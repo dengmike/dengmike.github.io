@@ -3,8 +3,10 @@
      <meta charset="utf-8" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta name="description" content="Mike Deng Portfolio Website">
-	<title>Mike Deng</title>
-            <!-- Latest compiled and minified CSS -->
+    <title>Mike Deng</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
 <!-- jQuery library -->
@@ -12,8 +14,8 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
         <div class="navbar bg-blur">
@@ -51,39 +53,64 @@
              
             </div>
           </div>
-	<div id="main" class="main">
-        
+         <!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
 
-	    
-	    <!-- Name -->
-	    <div class="title" id="bruh">
-		<p>Mike Deng</p>
-	    </div>
-
-	    
-	    <!-- Container for typed.js -->
-	    <div class="details-container">
-		<span id="details"></span>
-	    </div>
-
-	    
-	    <!-- Details Contents -->	    
-	    <div class="hide" id="detail-contents">
-		<p>^500 I am a UI/UX designer</p>
-		<p>^250 I study computer science ^50 and cognitive science</p>
-		<p>^150 I am a community leader</p>
-		<p>^250 I am a researcher</p>
-		<p>^500 I am a polyglot</p>
-	    </div>
-
-	    
-        </div>
-       <!--
+    <!-- First Photo Grid-->
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+      <div class="w3-quarter">
+        <img src="process.png" alt="Project 1" style="width:100%">
+        <h3>Project Name</h3>
+        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="process.png" alt="Project 2" style="width:100%">
+        <h3>Project Name</h3>
+        <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="process.png" alt="Project 3" style="width:100%">
+        <h3>Project Name</h3>
+        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+        <p>What else?</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="process.png" alt="Project 4" style="width:100%">
+        <h3>Project Name</h3>
+        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+    </div>
+    
+    <!-- Second Photo Grid-->
+    <div class="w3-row-padding w3-padding-16 w3-center">
+      <div class="w3-quarter">
+        <img src="process.png" alt="Project 5" style="width:100%">
+        <h3>Project Name</h3>
+        <p>Lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="process.png" alt="Project 6" style="width:100%">
+        <h3>Project Name</h3>
+        <p>Once again, some random text to lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="process.png" alt="Project 7" style="width:100%">
+        <h3>Project Name</h3>
+        <p>Just some random text, lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+      <div class="w3-quarter">
+        <img src="process.png" alt="Project 8" style="width:100%">
+        <h3>Project Name</h3>
+        <p>Lorem lorem lorem lorem ipsum text praesent tincidunt ipsum lipsum.</p>
+      </div>
+    </div>
+  
+          
+      <!--
     ==============
     Footer 
     ==============
       --> 
-
 
     <!--Footer-->
     <hr>
@@ -159,7 +186,6 @@
     <hr>
 
 
-    
 
     <!--Copyright-->
     <div class="footer-copyright py-3 text-center">
@@ -172,44 +198,33 @@
 
   </footer>
   <!--/.Footer-->
+  <!--/.Footer-->
 
-  
-        <script src="js/jquery-3.0.0.min.js"></script>
-        <script src="js/script.js"></script>
-        <script src="js/typed.min.js"></script>
-        <script src="js/three.r119.min.js"></script>
-        <script src="js/vanta.globe.min.js"></script>
-        <script>
-        VANTA.GLOBE({
-        el: "#main",
-        mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0x3f64ff,
-  color2: 0x0078FF,
-  backgroundColor: 0xffffff
-        })
-        </script>
-        <style>
-            h5 {
-                font-size:larger;
-                font-weight: bolder;
-            }
-            a {
-                font-size:medium;
-                color: #0078FF
-            }
-            #okok p {
-                font-size: medium
-            }
-        </style>
+    <script>
+    $(".button-collapse").sideNav();
 
-        
-    </body>
+        new WOW().init();</script>
+     <style>
+         h5 {
+             font-size:larger;
+             font-weight: bolder;
+         }
+         a {
+             font-size:medium;
+             color: #0078FF
+         }
+         #okok p {
+             font-size: medium
+         }
+         #yessir p {
+             margin-left: 20%
+         }
+     </style>
+     
+
+     
+ </body>
+
 
    
-</html>
+    </html>

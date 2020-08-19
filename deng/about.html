@@ -3,8 +3,10 @@
      <meta charset="utf-8" />
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta name="description" content="Mike Deng Portfolio Website">
-	<title>Mike Deng</title>
-            <!-- Latest compiled and minified CSS -->
+    <title>Mike Deng</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
 <!-- jQuery library -->
@@ -12,8 +14,8 @@
 
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
         <div class="navbar bg-blur">
@@ -51,39 +53,28 @@
              
             </div>
           </div>
-	<div id="main" class="main">
+          <div class="w3-row w3-padding-64" id="about">
+            
         
+            <div class="w3-col m6 w3-padding-large" id="yessir">
+              <h1 class="w3-center">About Me</h1><br>
+              <p>I'm Mike and I am currently a Cognitive Science and Computer Science sophomore at Rutgers University. By understanding the inner workings of the mind, and having a background in computer science, I hope to create pleasant, appealing experiences for users everywhere. </p>
+             <br>
+             <p>My passion lie within volunteering, and community building. And in my freetime, I run, learn new languages, and listen to an extraordinarily large quantity of podcasts. </p>
+             <br>
 
-	    
-	    <!-- Name -->
-	    <div class="title" id="bruh">
-		<p>Mike Deng</p>
-	    </div>
-
-	    
-	    <!-- Container for typed.js -->
-	    <div class="details-container">
-		<span id="details"></span>
-	    </div>
-
-	    
-	    <!-- Details Contents -->	    
-	    <div class="hide" id="detail-contents">
-		<p>^500 I am a UI/UX designer</p>
-		<p>^250 I study computer science ^50 and cognitive science</p>
-		<p>^150 I am a community leader</p>
-		<p>^250 I am a researcher</p>
-		<p>^500 I am a polyglot</p>
-	    </div>
-
-	    
-        </div>
-       <!--
+            
+            </div>
+            <div class="w3-col m6 w3-padding-large w3-hide-small">
+                <img src="/person.png" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="400" height="200">
+               </div>
+          </div>
+          
+      <!--
     ==============
     Footer 
     ==============
       --> 
-
 
     <!--Footer-->
     <hr>
@@ -172,44 +163,33 @@
 
   </footer>
   <!--/.Footer-->
+  <!--/.Footer-->
 
-  
-        <script src="js/jquery-3.0.0.min.js"></script>
-        <script src="js/script.js"></script>
-        <script src="js/typed.min.js"></script>
-        <script src="js/three.r119.min.js"></script>
-        <script src="js/vanta.globe.min.js"></script>
-        <script>
-        VANTA.GLOBE({
-        el: "#main",
-        mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,
-  minWidth: 200.00,
-  scale: 1.00,
-  scaleMobile: 1.00,
-  color: 0x3f64ff,
-  color2: 0x0078FF,
-  backgroundColor: 0xffffff
-        })
-        </script>
-        <style>
-            h5 {
-                font-size:larger;
-                font-weight: bolder;
-            }
-            a {
-                font-size:medium;
-                color: #0078FF
-            }
-            #okok p {
-                font-size: medium
-            }
-        </style>
+    <script>
+    $(".button-collapse").sideNav();
 
-        
-    </body>
+        new WOW().init();</script>
+     <style>
+         h5 {
+             font-size:larger;
+             font-weight: bolder;
+         }
+         a {
+             font-size:medium;
+             color: #0078FF
+         }
+         #okok p {
+             font-size: medium
+         }
+         #yessir p {
+             margin-left: 20%
+         }
+     </style>
+     
+
+     
+ </body>
+
 
    
-</html>
+    </html>
