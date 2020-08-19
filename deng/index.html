@@ -1,0 +1,97 @@
+<html>
+    <head>
+     <meta charset="utf-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Mike Deng Portfolio Website">
+	<title>Mike Deng</title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="navbar bg-blur">
+
+            <label for="togglericon" class="toggler" checked></label>
+            <input type="checkbox" id="togglericon" class="toggler" />
+        
+            <div class="brand">
+              <span class="brand-icon">⚛</span>
+              <span class="brand-name">Mike Deng</span>
+            </div>
+        
+            <div class="nav">
+              <!-- reposition the menu with: -->
+              <!-- div class="nav at-center" -->
+              <!-- div class="nav at-right"  -->
+        
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Graphic Design</a>
+
+              <a href="#">UI/UX</a>
+              <div class="dropdown">
+                <label for="toggle-2">Contacts</label>
+                <input type="checkbox" id="toggle-2" />
+                <ul>
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Tiktok</a></li>
+                  <li><a href="#">Medium</a></li>
+                </ul>
+              </div>
+              <a href="#">Experiences</a>
+             
+            </div>
+          </div>
+	<div id="main" class="main">
+        
+
+	    
+	    <!-- Name -->
+	    <div class="title" id="bruh">
+		<p>Mike Deng</p>
+	    </div>
+
+	    
+	    <!-- Container for typed.js -->
+	    <div class="details-container">
+		<span id="details"></span>
+	    </div>
+
+	    
+	    <!-- Details Contents -->	    
+	    <div class="hide" id="detail-contents">
+		<p>I am a ^500 UI/UX designer</p>
+		<p>I study ^250 computer science ^50 and cognitive science</p>
+		<p>I am a ^150 community leader</p>
+		<p>I am a ^250 researcher</p>
+		<p>I am a ^500 polygot</p>
+	    </div>
+
+	    
+        </div>
+        <script src="js/jquery-3.0.0.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/typed.min.js"></script>
+        <script src="js/three.r119.min.js"></script>
+        <script src="js/vanta.globe.min.js"></script>
+        <script>
+        VANTA.GLOBE({
+        el: "#main",
+        mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  color: 0x3f64ff,
+  color2: 0x0078FF,
+  backgroundColor: 0xffffff
+        })
+        </script>
+
+        
+    </body>
+
+   
+</html>
